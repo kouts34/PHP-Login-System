@@ -24,8 +24,8 @@
   <body>
 
   	<div class="uk-section uk-container">
-  		<?php echo "Hello user. Today is:";
-  		echo date("Y m d");
+  		<?php echo "Hello user. Today is: ";
+  		echo date("d m Y");
   		?>
   		<p>
   			<a href="/login.php">Login</a>
