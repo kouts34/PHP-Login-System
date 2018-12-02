@@ -1,4 +1,11 @@
-<?php require_once "inc/config.php"; ?>
+<?php 
+
+	//Allow the config
+	define('__CONFIG__'. true)
+	//Require the config
+	require_once "inc/config.php"; 
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -42,12 +49,7 @@
   		</div>
   	</div>
 
-    <!-- jQuery is required -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/js/uikit-icons.min.js"></script>
+  	<?php require_once "inc/footer.php"; ?>      
 
   </body>
 </html>
