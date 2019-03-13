@@ -8,6 +8,7 @@
 
 	//Config below
 
-
+	//Include the DB.php file:
+	include_once "classes/DB.php"
 
 ?> 
