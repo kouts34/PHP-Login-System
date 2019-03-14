@@ -22,7 +22,8 @@ $(document)
 			return false;
 	}
 
-	console.log(data);
+	//Assuming code gets this far, we can start the ajax process
+	_error.hide();
 
 	return false;
 })
