@@ -43,6 +43,10 @@
 			        </div>
 			    </div>
 
+			    <div class="uk-margin uk-alert uk-alert-danger js-error">
+			    	test
+			    </div>
+
 			    <div class="uk-margin">
 			        <button class="uk-button uk-button-default" type="submit">Register</button>
 			    </div>
