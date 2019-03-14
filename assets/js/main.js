@@ -15,6 +15,11 @@ $(document)
 			.text("Please enter a valid email address")
 			.show();
 		return false;
+	} else if (data.password.length < 11) {
+			_error
+				.text("Please enter a passphrase that is at least 11 characters long.")
+				.show
+			return false;
 	}
 
 	console.log(data);
