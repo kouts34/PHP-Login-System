@@ -18,7 +18,7 @@ $(document)
 	} else if (data.password.length < 11) {
 			_error
 				.text("Please enter a passphrase that is at least 11 characters long.")
-				.show
+				.show();
 			return false;
 	}
 
