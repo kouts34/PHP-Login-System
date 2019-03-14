@@ -43,7 +43,7 @@
 			        </div>
 			    </div>
 
-			    <div class="uk-margin uk-alert uk-alert-danger js-error">
+			    <div class="uk-margin uk-alert uk-alert-danger js-error" style="display: none;">
 			    	test
 			    </div>
 
