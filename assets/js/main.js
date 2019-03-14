@@ -4,7 +4,7 @@ $(document)
 
 	var _form = $(this);
 
-	var date = {
+	var data = {
 		email: $("input[type='email']", _form).val(),
 		password: $("input[type='password']", _form).val()
 	}
